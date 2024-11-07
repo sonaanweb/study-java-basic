@@ -4,7 +4,7 @@ public class ClassStart3 {
 
     public static void main(String[] args) {
         Student student1; // Student 클래스 내 정보를 담을 변수 선언
-        student1 = new Student(); // 실제 메모리에 담는다
+        student1 = new Student(); // 실제 메모리에 담는다 x001 참조값을 만들겠다
         student1.name = "학생1";
         student1.age = 15;
         student1.grade = 90;
