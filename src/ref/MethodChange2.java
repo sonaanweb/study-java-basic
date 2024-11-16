@@ -8,7 +8,7 @@ public class MethodChange2 {
         System.out.println("메서드 호출 전: dataA.value = " + dataA.value); // 10
         System.out.println("dataA = " + dataA); // x001
         changeReference(dataA);
-        System.out.println("메서드 호출 전: dataA.value = " + dataA.value); // 20
+        System.out.println("메서드 호출 후: dataA.value = " + dataA.value); // 20
     }
 
     static void changeReference(Data dataX){ // dataA의 `참조값`이 넘어옴
